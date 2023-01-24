@@ -35,7 +35,6 @@ let favoriteAnimeRating = {
 
 console.log(favoriteAnimeRating);
 
-let myArray = new Array();
-myArray = [3, 50, "item1", 100, "item2"];
+let myArray = [3, 50, "item1", 100, "item2"];
 
 document.write("     " + myArray[3]);
