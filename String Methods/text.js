@@ -14,10 +14,10 @@ document.getElementById("txt2").innerHTML = `fruit slice is  ${fruitSlice}`;
 
 // Replace
 
-let fruitSwitch = fruits.replace("Orange", "Pear")
+let fruitSwitch = fruits.replace("Orange", "Pear");
 
 document.getElementById("clk").onclick = function () {
-    document.getElementById("txt3").innerHTML = fruitSwitch;
+    document.getElementById("txt3").innerHTML = ` Fruits = ${fruitSwitch} `;
 }
 
 // To Upper and Lower case
@@ -29,4 +29,8 @@ document.getElementById("clk").onclick = function () {
 
 // Trim
 
-let 
+let apples = "  Red apple, Green apple  "
+let fruitTrim= apples.trim();
+document.getElementById("txt4").innerHTML = fruitTrim;
+
+// 
