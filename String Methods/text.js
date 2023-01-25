@@ -41,4 +41,7 @@ document.getElementById("txt5").innerHTML = padded;
 
 // Split
 
-
+let splitApples = apples.split("a");
+document.getElementById("txt6").innerHTML = splitApples[0];
+document.getElementById("txt6").style.fontSize = "20px";
+document.getElementById("txt6").style.color = "orangered";
