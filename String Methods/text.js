@@ -33,4 +33,12 @@ let apples = "  Red apple, Green apple  "
 let fruitTrim= apples.trim();
 document.getElementById("txt4").innerHTML = fruitTrim;
 
-// 
+// Padding
+
+let y = "5";
+let padded = y.padEnd(5,"0");
+document.getElementById("txt5").innerHTML = padded;
+
+// Split
+
+
