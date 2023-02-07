@@ -92,9 +92,14 @@ document.querySelector("#txt14").innerHTML = ` CONCATENATING ALL = ${allColors}`
 const newColorArray = allColors.concat("BURGUNDY");
 document.querySelector("#txt15").innerHTML = ` NEW COLOR ARRAY = ${newColorArray}`
 
-
 //Splice
+allColors.splice(2, 0, "PURPLE");
+document.querySelector("#txt16").innerHTML = ` SPLICED COLORS = ${allColors}`
 
-const splicedColors = allColors.splice(2, 0, "Burnt Orange");
-document.querySelector("#txt16").innerHTML = splicedColors;
-document.querySelector("#txt17").innerHTML = `SPLICED COLORS ${splicedColors}`;
+//Slice
+const slicedColor = allColors.slice(1);
+document.querySelector("#txt17").innerHTML = ` SLICED COLORS = ${slicedColor}`;
+
+
+
+//ARRAY SORT
