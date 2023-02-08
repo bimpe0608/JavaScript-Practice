@@ -103,3 +103,13 @@ document.querySelector("#txt17").innerHTML = ` SLICED COLORS = ${slicedColor}`;
 
 
 //ARRAY SORT
+
+//Sort
+const sortedColors = rainbowColours.sort();
+document.getElementById("txt18").innerHTML = ` SORTED COLORS = ${sortedColors}`;
+
+//Reverse
+const reversedArray = rainbowColours.reverse();
+document.getElementById("txt19").innerHTML = ` REVERSE COLORS = ${reversedArray}`;
+
+//Numeric Sort 
