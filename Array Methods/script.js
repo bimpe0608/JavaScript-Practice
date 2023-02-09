@@ -113,3 +113,20 @@ const reversedArray = rainbowColours.reverse();
 document.getElementById("txt19").innerHTML = ` REVERSE COLORS = ${reversedArray}`;
 
 //Numeric Sort 
+const denominations = [5, 10, 20, 50, 100, 200, 500, 1000];
+document.querySelector("#txt20").innerHTML = denominations;
+
+const sortCurrency = denominations.sort(function(a,b) {return b - a});  //default already sorted from a - b
+document.querySelector("#txt21").innerHTML = ` SORTED CURRENCY = ${sortCurrency}`;
+
+//Random
+
+document.getElementById("clck").onclick = function () {
+
+denominations.sort(function() {return 0.5 - Math.random()});
+
+document.querySelector("#txt22").innerHTML = ` RANDOM DENOMINATIONS = ${denominations}`;
+document.querySelector("#txt22").style.color = "hotpink";
+}
+
+
