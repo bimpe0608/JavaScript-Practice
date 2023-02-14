@@ -26,8 +26,6 @@ console.log(multiples);
 // console.log(multiples)
 
 
-
-
 //  const array = [1,3,5,7,9];
 
 //  const mappedArray = array.map(function(element, i){
@@ -36,4 +34,6 @@ console.log(multiples);
 //  })
 
 //  console.log(mappedArray)
+
+
 
